@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - pindexer_db@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="pindexer_db">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bemytel"/>
+    <schema id="4" parent="1" name="diginovcmdb"/>
+    <schema id="5" parent="1" name="e_man"/>
+    <schema id="6" parent="1" name="gestioncomptable"/>
+    <schema id="7" parent="1" name="gestiondescomptables"/>
+    <schema id="8" parent="1" name="gestionnote"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="isitravel"/>
+    <schema id="11" parent="1" name="itt3ir"/>
+    <schema id="12" parent="1" name="live_chat"/>
+    <schema id="13" parent="1" name="mysql"/>
+    <schema id="14" parent="1" name="numerotation"/>
+    <schema id="15" parent="1" name="performance_schema"/>
+    <schema id="16" parent="1" name="phpmyadmin"/>
+    <schema id="17" parent="1" name="student"/>
+    <schema id="18" parent="1" name="test"/>
+    <schema id="19" parent="1" name="userdb"/>
+    <table id="20" parent="2" name="broadcasts"/>
+    <table id="21" parent="2" name="domain_mappings"/>
+    <table id="22" parent="2" name="domain_tags"/>
+    <table id="23" parent="2" name="domains"/>
+    <table id="24" parent="2" name="notifications"/>
+    <table id="25" parent="2" name="posts"/>
+    <table id="26" parent="2" name="ratings"/>
+    <table id="27" parent="2" name="reports"/>
+    <table id="28" parent="2" name="reviews"/>
+    <table id="29" parent="2" name="sites"/>
+    <table id="30" parent="2" name="subscriptions"/>
+    <table id="31" parent="2" name="users"/>
+    <table id="32" parent="2" name="visits"/>
+    <column id="33" parent="20" name="broadcast_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="34" parent="20" name="broadcast_content_en">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="20" name="broadcast_content_fr">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="20" name="broadcast_distance">
+      <Position>4</Position>
+      <Comment>//distance in meters</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="37" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>broadcast_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="38" parent="21" name="location_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="21" name="domain_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="40" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>location_id
+domain_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="22" name="domain_tag_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="42" parent="22" name="domain_tag_name_fr">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="22" name="domain_tag_name_en">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="22" name="domain_tag_site_id">
+      <Position>4</Position>
+      <Comment>the location to which it is attached</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="22" name="domain_tag_domain_id">
+      <Position>5</Position>
+      <Comment>the domain attached to it</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="46" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>domain_tag_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="47" parent="23" name="domain_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="48" parent="23" name="domain_icon">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="23" name="domain_name_fr">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="23" name="domain_name_en">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="23" name="producer_description_fr">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="23" name="producer_description_en">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="23" name="viewer_description_fr">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="23" name="viewer_description_en">
+      <Position>8</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="23" name="domain_created_at">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="56" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>domain_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="24" name="notification_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="24" name="notification_source_id">
+      <Position>2</Position>
+      <Comment>rem : anonymous begins with A</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="24" name="notification_destination_id">
+      <Position>3</Position>
+      <Comment>rem : anonymous begins with A</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="24" name="notification_content_en">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="24" name="notification_content_fr">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="24" name="notification_time">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="63" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>notification_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="64" parent="25" name="post_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="65" parent="25" name="post_location_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="25" name="post_content">
+      <Position>3</Position>
+      <DataType>mediumtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="25" name="post_featured_image">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="68" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>post_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="26" name="rating_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="70" parent="26" name="rating_user_id">
+      <Position>2</Position>
+      <Comment>source of the rating (A .. = anonymous)</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="26" name="rating_location_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="26" name="rating_value">
+      <Position>4</Position>
+      <Comment>0 to 5</Comment>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="73" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>rating_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="27" name="report_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="75" parent="27" name="report_location_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="27" name="report_content">
+      <Position>3</Position>
+      <DataType>mediumtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="27" name="report_user_id">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="78" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>report_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="28" name="review_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="28" name="review_content">
+      <Position>2</Position>
+      <DataType>mediumtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="28" name="review_location_id">
+      <Position>3</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="28" name="review_user_id">
+      <Position>4</Position>
+      <Comment>the source of the review (the reviewer) // rem A... = anonymous</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="83" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>review_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="29" name="site_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="85" parent="29" name="site_longitude">
+      <Position>2</Position>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="29" name="site_latitude">
+      <Position>3</Position>
+      <DataType>float|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="29" name="site_contact">
+      <Position>4</Position>
+      <Comment>JSON DATA;phone number;website;email</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="29" name="site_logo">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="29" name="site_since">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="29" name="site_workers_number">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="29" name="site_visibility">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="92" parent="29" name="site_created_at">
+      <Position>9</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="29" name="site_working_period">
+      <Position>10</Position>
+      <Comment>JSON DATA</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="29" name="site_description_en">
+      <Position>11</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="29" name="site_description_fr">
+      <Position>12</Position>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="29" name="site_user_id">
+      <Position>13</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="97" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>site_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="98" parent="30" name="subscription_location_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="30" name="subscription_user_id">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="31" name="user_id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="101" parent="31" name="user_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="31" name="user_password">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="31" name="user_category">
+      <Position>4</Position>
+      <Comment>0:individual;1:group;2:enterprise</Comment>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="31" name="user_created_at">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="105" parent="31" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="106" parent="32" name="visit_user_id">
+      <Position>1</Position>
+      <Comment>a .... = anonymous</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="32" name="visit_location_id">
+      <Position>2</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>

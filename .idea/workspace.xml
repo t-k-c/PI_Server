@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e92c5d5-746c-41b1-bb79-7ff8945f7005" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReportManager.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReportManager/ReportManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding>
+                <marker date="1514653740804" expanded="true" signature="620:714" ph="INSERT INTO `reports`... " />
+                <marker date="1514653740804" expanded="true" signature="1095:1162" ph="UPDATE `repo... " />
+                <marker date="1514653740804" expanded="true" signature="1342:1405" ph="UPDATE `repo... " />
+                <marker date="1514653740804" expanded="true" signature="1581:1644" ph="UPDATE `repo... " />
+                <marker date="1514653740804" expanded="true" signature="1824:1847" ph="SELECT * FRO... reports" />
+                <marker date="1514653740804" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+                <marker date="1514653740804" expanded="true" signature="2224:2269" ph="SELECT * FRO... reports" />
+                <marker date="1514653740804" expanded="true" signature="2464:2518" ph="SELECT * FRO... reports" />
+                <marker date="1514653740804" expanded="true" signature="2711:2761" ph="SELECT * FRO... reports" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UserManager/UserManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <marker date="1514654783573" expanded="true" signature="616:722" ph="INSERT INTO `users`... " />
+                <marker date="1514654783573" expanded="true" signature="893:932" ph="DELETE FROM " />
+                <marker date="1514654783573" expanded="true" signature="904:932" ph="INSERT INTO `users`... " />
+                <marker date="1514654783573" expanded="true" signature="1176:1210" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1176:1230" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1379:1417" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1379:1437" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1379:1500" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1590:1628" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1590:1648" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1590:1711" ph="UPDATE `user... " />
+                <marker date="1514654783573" expanded="true" signature="1819:1860" ph="SELECT * FRO... users" />
+                <marker date="1514654783573" expanded="true" signature="1827:1860" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReviewManager/ReviewManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding>
+                <marker date="1514653908285" expanded="true" signature="620:714" ph="INSERT INTO `reviews`... " />
+                <marker date="1514653908285" expanded="true" signature="1091:1154" ph="UPDATE `revi... " />
+                <marker date="1514653908285" expanded="true" signature="1334:1401" ph="UPDATE `revi... " />
+                <marker date="1514653908285" expanded="true" signature="1581:1644" ph="UPDATE `revi... " />
+                <marker date="1514653908285" expanded="true" signature="1824:1847" ph="SELECT * FRO... reviews" />
+                <marker date="1514653908285" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+                <marker date="1514653908285" expanded="true" signature="2224:2269" ph="SELECT * FRO... reviews" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SiteManager/SiteManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <marker date="1514651627186" expanded="true" signature="851:1173" ph="INSERT INTO `sites`... " />
+                <marker date="1514651627186" expanded="true" signature="1981:2035" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="2204:2263" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="2436:2494" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="2665:2722" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="2889:2943" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="3108:3163" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="3338:3402" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="3582:3642" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="3818:3878" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="4058:4122" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="4299:4356" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="4533:4597" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="4781:4845" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="5035:5105" ph="UPDATE `site... " />
+                <marker date="1514651627186" expanded="true" signature="5305:5326" ph="SELECT `site... sites" />
+                <marker date="1514651627186" expanded="true" signature="5305:5366" ph="SELECT * FRO... sites" />
+                <marker date="1514651627186" expanded="true" signature="5559:5580" ph="SELECT * FRO... sites" />
+                <marker date="1514651627186" expanded="true" signature="5752:5788" ph="DELETE FROM " />
+                <marker date="1514651627186" expanded="true" signature="5752:5791" ph="DELETE FROM " />
+                <marker date="1514651627186" expanded="true" signature="5758:5788" ph="SELECT * FRO... sites" />
+                <marker date="1514651627186" expanded="true" signature="5876:5929" ph="DELETE FROM " />
+                <marker date="1514651627186" expanded="true" signature="6063:6104" ph="SELECT * FRO... sites" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubscriptionManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SubscriptionManager/SubscriptionManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <marker date="1514654783034" expanded="true" signature="583:675" ph="INSERT INTO `subscriptions`... " />
+                <marker date="1514654783034" expanded="true" signature="853:956" ph="DELETE FROM " />
+                <marker date="1514654783034" expanded="true" signature="853:966" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainMappingManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DomainMappingManager/DomainMappingManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <marker date="1514651836302" expanded="true" signature="577:647" ph="INSERT INTO `domain_mappings`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainTagManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DomainTagManager/DomainTagManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+              <folding>
+                <marker date="1514654783324" expanded="true" signature="658:790" ph="INSERT INTO `domain_tags`... " />
+                <marker date="1514654783324" expanded="true" signature="1245:1320" ph="UPDATE `doma... " />
+                <marker date="1514654783324" expanded="true" signature="1508:1583" ph="UPDATE `doma... " />
+                <marker date="1514654783324" expanded="true" signature="1771:1846" ph="UPDATE `doma... " />
+                <marker date="1514654783324" expanded="true" signature="2036:2113" ph="UPDATE `doma... " />
+                <marker date="1514654783324" expanded="true" signature="2307:2334" ph="SELECT * FRO... domain_tags" />
+                <marker date="1514654783324" expanded="true" signature="2524:2575" ph="DELETE FROM " />
+                <marker date="1514654783324" expanded="true" signature="2739:2792" ph="SELECT * FRO... domain_tags" />
+                <marker date="1514654783324" expanded="true" signature="3140:3252" ph="SELECT * FRO... domain_tags" />
+                <marker date="1514654783324" expanded="true" signature="3413:3525" ph="SELECT * FRO... domain_tags" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NotificationManager/NotificationManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="46" column="72" lean-forward="false" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+              <folding>
+                <marker date="1514654304815" expanded="true" signature="703:881" ph="INSERT INTO `notifications`... " />
+                <marker date="1514654304815" expanded="true" signature="1417:1500" ph="UPDATE `noti... " />
+                <marker date="1514654304815" expanded="true" signature="1700:1788" ph="UPDATE `noti... " />
+                <marker date="1514654304815" expanded="true" signature="1989:2073" ph="UPDATE `noti... " />
+                <marker date="1514654304815" expanded="true" signature="2270:2354" ph="UPDATE `noti... " />
+                <marker date="1514654304815" expanded="true" signature="2545:2623" ph="UPDATE `noti... " />
+                <marker date="1514654304815" expanded="true" signature="2816:2845" ph="SELECT * FRO... notifications" />
+                <marker date="1514654304815" expanded="true" signature="3034:3089" ph="DELETE FROM " />
+                <marker date="1514654304815" expanded="true" signature="3254:3311" ph="SELECT * FRO... notifications" />
+                <marker date="1514654304815" expanded="true" signature="3529:3598" ph="SELECT * FRO... notifications" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PostManager/PostManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <marker date="1514652982654" expanded="true" signature="617:710" ph="INSERT INTO `posts`... " />
+                <marker date="1514652982654" expanded="true" signature="1085:1146" ph="UPDATE `post... " />
+                <marker date="1514652982654" expanded="true" signature="1320:1377" ph="UPDATE `post... " />
+                <marker date="1514652982654" expanded="true" signature="1554:1618" ph="UPDATE `post... " />
+                <marker date="1514652982654" expanded="true" signature="1799:1820" ph="SELECT * FRO... posts" />
+                <marker date="1514652982654" expanded="true" signature="1998:2037" ph="DELETE FROM " />
+                <marker date="1514652982654" expanded="true" signature="2183:2224" ph="SELECT * FRO... posts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RatingManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RatingManager/RatingManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="56" column="102" lean-forward="false" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
+              <folding>
+                <marker date="1514653489000" expanded="true" signature="618:710" ph="INSERT INTO `ratings`... " />
+                <marker date="1514653489000" expanded="true" signature="1083:1146" ph="UPDATE `rati... " />
+                <marker date="1514653489000" expanded="true" signature="1326:1393" ph="UPDATE `rati... " />
+                <marker date="1514653489000" expanded="true" signature="1571:1632" ph="UPDATE `rati... " />
+                <marker date="1514653489000" expanded="true" signature="1810:1833" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2010:2033" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2010:2063" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2010:2073" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2262:2315" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2262:2349" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2262:2359" ph="SELECT * FRO... ratings" />
+                <marker date="1514653489000" expanded="true" signature="2642:2685" ph="DELETE FROM " />
+                <marker date="1514653489000" expanded="true" signature="2837:2882" ph="SELECT * FRO... ratings" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/SiteManager/SiteManager.php" />
+        <option value="$PROJECT_DIR$/DomainMappingManager/DomainMappingManager.php" />
+        <option value="$PROJECT_DIR$/DomainManger/DomainManager.php" />
+        <option value="$PROJECT_DIR$/PostManager/PostManager.php" />
+        <option value="$PROJECT_DIR$/RatingManager/RatingManager.php" />
+        <option value="$PROJECT_DIR$/ReportManager/ReportManager.php" />
+        <option value="$PROJECT_DIR$/ReviewManager/ReviewManager.php" />
+        <option value="$PROJECT_DIR$/BroadCastManager/BroadCastManager.php" />
+        <option value="$PROJECT_DIR$/NotificationManager/NotificationManager.php" />
+        <option value="$PROJECT_DIR$/AnalyticManager/VisitManager.php" />
+        <option value="$PROJECT_DIR$/SubscriptionManager/SubscriptionManager.php" />
+        <option value="$PROJECT_DIR$/DomainTagManager/DomainTagManager.php" />
+        <option value="$PROJECT_DIR$/UserManager/UserManager.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="183" />
+    <option name="width" value="1213" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PIndexer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIndexer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PIndexer" />
+      <recent name="C:\xampp\htdocs\PIndexer\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e92c5d5-746c-41b1-bb79-7ff8945f7005" name="Default" comment="" />
+      <created>1514560329362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514560329362</updated>
+      <workItem from="1514560340966" duration="10344000" />
+      <workItem from="1514637852616" duration="14510000" />
+      <workItem from="1515072097792" duration="842000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25696000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="56" y="-8" width="1232" height="816" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17105263" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ReportManager/ReportManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514653740804" expanded="true" signature="620:714" ph="INSERT INTO `reports`... " />
+            <marker date="1514653740804" expanded="true" signature="1095:1162" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1342:1405" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1581:1644" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1824:1847" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+            <marker date="1514653740804" expanded="true" signature="2224:2269" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2464:2518" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2711:2761" ph="SELECT * FRO... reports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManager/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1514654783573" expanded="true" signature="616:722" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="893:932" ph="DELETE FROM " />
+            <marker date="1514654783573" expanded="true" signature="904:932" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1210" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1230" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1417" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1437" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1500" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1628" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1648" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1711" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1819:1860" ph="SELECT * FRO... users" />
+            <marker date="1514654783573" expanded="true" signature="1827:1860" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReviewManager/ReviewManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1514653908285" expanded="true" signature="620:714" ph="INSERT INTO `reviews`... " />
+            <marker date="1514653908285" expanded="true" signature="1091:1154" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1334:1401" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1581:1644" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1824:1847" ph="SELECT * FRO... reviews" />
+            <marker date="1514653908285" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+            <marker date="1514653908285" expanded="true" signature="2224:2269" ph="SELECT * FRO... reviews" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteManager/SiteManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1514651627186" expanded="true" signature="851:1173" ph="INSERT INTO `sites`... " />
+            <marker date="1514651627186" expanded="true" signature="1981:2035" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2204:2263" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2436:2494" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2665:2722" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2889:2943" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3108:3163" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3338:3402" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3582:3642" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3818:3878" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4058:4122" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4299:4356" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4533:4597" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4781:4845" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5035:5105" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5305:5326" ph="SELECT `site... sites" />
+            <marker date="1514651627186" expanded="true" signature="5305:5366" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5559:5580" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5752:5788" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5752:5791" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5758:5788" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5876:5929" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="6063:6104" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainMappingManager/DomainMappingManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1514651836302" expanded="true" signature="577:647" ph="INSERT INTO `domain_mappings`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainTagManager/DomainTagManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <marker date="1514654783324" expanded="true" signature="658:790" ph="INSERT INTO `domain_tags`... " />
+            <marker date="1514654783324" expanded="true" signature="1245:1320" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="1508:1583" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="1771:1846" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="2036:2113" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="2307:2334" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="2524:2575" ph="DELETE FROM " />
+            <marker date="1514654783324" expanded="true" signature="2739:2792" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="3140:3252" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="3413:3525" ph="SELECT * FRO... domain_tags" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotificationManager/NotificationManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="46" column="72" lean-forward="false" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+          <folding>
+            <marker date="1514654304815" expanded="true" signature="703:881" ph="INSERT INTO `notifications`... " />
+            <marker date="1514654304815" expanded="true" signature="1417:1500" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="1700:1788" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="1989:2073" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2270:2354" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2545:2623" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2816:2845" ph="SELECT * FRO... notifications" />
+            <marker date="1514654304815" expanded="true" signature="3034:3089" ph="DELETE FROM " />
+            <marker date="1514654304815" expanded="true" signature="3254:3311" ph="SELECT * FRO... notifications" />
+            <marker date="1514654304815" expanded="true" signature="3529:3598" ph="SELECT * FRO... notifications" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostManager/PostManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <marker date="1514652982654" expanded="true" signature="617:710" ph="INSERT INTO `posts`... " />
+            <marker date="1514652982654" expanded="true" signature="1085:1146" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1320:1377" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1554:1618" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1799:1820" ph="SELECT * FRO... posts" />
+            <marker date="1514652982654" expanded="true" signature="1998:2037" ph="DELETE FROM " />
+            <marker date="1514652982654" expanded="true" signature="2183:2224" ph="SELECT * FRO... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RatingManager/RatingManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="102" lean-forward="false" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
+          <folding>
+            <marker date="1514653489000" expanded="true" signature="618:710" ph="INSERT INTO `ratings`... " />
+            <marker date="1514653489000" expanded="true" signature="1083:1146" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1326:1393" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1571:1632" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1810:1833" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2033" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2063" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2073" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2315" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2349" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2359" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2642:2685" ph="DELETE FROM " />
+            <marker date="1514653489000" expanded="true" signature="2837:2882" ph="SELECT * FRO... ratings" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManager/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <marker date="1514654783573" expanded="true" signature="616:722" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="893:932" ph="DELETE FROM " />
+            <marker date="1514654783573" expanded="true" signature="904:932" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1210" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1230" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1417" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1437" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1500" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1628" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1648" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1711" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1819:1860" ph="SELECT * FRO... users" />
+            <marker date="1514654783573" expanded="true" signature="1827:1860" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteManager/SiteManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding>
+            <marker date="1514651627186" expanded="true" signature="851:1173" ph="INSERT INTO `sites`... " />
+            <marker date="1514651627186" expanded="true" signature="1981:2035" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2204:2263" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2436:2494" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2665:2722" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2889:2943" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3108:3163" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3338:3402" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3582:3642" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3818:3878" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4058:4122" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4299:4356" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4533:4597" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4781:4845" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5035:5105" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5305:5326" ph="SELECT `site... sites" />
+            <marker date="1514651627186" expanded="true" signature="5305:5366" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5559:5580" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5752:5788" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5752:5791" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5758:5788" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5876:5929" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="6063:6104" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4138ff2d-aaf2-44ba-8a98-8ae90348d401/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnalyticManager/VisitManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainManger/DomainManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BroadCastManager/BroadCastManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainMappingManager/DomainMappingManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <marker date="1514651836302" expanded="true" signature="577:647" ph="INSERT INTO `domain_mappings`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainTagManager/DomainTagManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="77" column="20" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <marker date="1514654783324" expanded="true" signature="658:790" ph="INSERT INTO `domain_tags`... " />
+            <marker date="1514654783324" expanded="true" signature="1245:1320" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="1508:1583" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="1771:1846" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="2036:2113" ph="UPDATE `doma... " />
+            <marker date="1514654783324" expanded="true" signature="2307:2334" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="2524:2575" ph="DELETE FROM " />
+            <marker date="1514654783324" expanded="true" signature="2739:2792" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="3140:3252" ph="SELECT * FRO... domain_tags" />
+            <marker date="1514654783324" expanded="true" signature="3413:3525" ph="SELECT * FRO... domain_tags" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotificationManager/NotificationManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="46" column="72" lean-forward="false" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+          <folding>
+            <marker date="1514654304815" expanded="true" signature="703:881" ph="INSERT INTO `notifications`... " />
+            <marker date="1514654304815" expanded="true" signature="1417:1500" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="1700:1788" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="1989:2073" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2270:2354" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2545:2623" ph="UPDATE `noti... " />
+            <marker date="1514654304815" expanded="true" signature="2816:2845" ph="SELECT * FRO... notifications" />
+            <marker date="1514654304815" expanded="true" signature="3034:3089" ph="DELETE FROM " />
+            <marker date="1514654304815" expanded="true" signature="3254:3311" ph="SELECT * FRO... notifications" />
+            <marker date="1514654304815" expanded="true" signature="3529:3598" ph="SELECT * FRO... notifications" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostManager/PostManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <marker date="1514652982654" expanded="true" signature="617:710" ph="INSERT INTO `posts`... " />
+            <marker date="1514652982654" expanded="true" signature="1085:1146" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1320:1377" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1554:1618" ph="UPDATE `post... " />
+            <marker date="1514652982654" expanded="true" signature="1799:1820" ph="SELECT * FRO... posts" />
+            <marker date="1514652982654" expanded="true" signature="1998:2037" ph="DELETE FROM " />
+            <marker date="1514652982654" expanded="true" signature="2183:2224" ph="SELECT * FRO... posts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RatingManager/RatingManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="56" column="102" lean-forward="false" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
+          <folding>
+            <marker date="1514653489000" expanded="true" signature="618:710" ph="INSERT INTO `ratings`... " />
+            <marker date="1514653489000" expanded="true" signature="1083:1146" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1326:1393" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1571:1632" ph="UPDATE `rati... " />
+            <marker date="1514653489000" expanded="true" signature="1810:1833" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2033" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2063" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2010:2073" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2315" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2349" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2262:2359" ph="SELECT * FRO... ratings" />
+            <marker date="1514653489000" expanded="true" signature="2642:2685" ph="DELETE FROM " />
+            <marker date="1514653489000" expanded="true" signature="2837:2882" ph="SELECT * FRO... ratings" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteManager/SiteManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <marker date="1514651627186" expanded="true" signature="851:1173" ph="INSERT INTO `sites`... " />
+            <marker date="1514651627186" expanded="true" signature="1981:2035" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2204:2263" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2436:2494" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2665:2722" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="2889:2943" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3108:3163" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3338:3402" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3582:3642" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="3818:3878" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4058:4122" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4299:4356" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4533:4597" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="4781:4845" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5035:5105" ph="UPDATE `site... " />
+            <marker date="1514651627186" expanded="true" signature="5305:5326" ph="SELECT `site... sites" />
+            <marker date="1514651627186" expanded="true" signature="5305:5366" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5559:5580" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5752:5788" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5752:5791" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="5758:5788" ph="SELECT * FRO... sites" />
+            <marker date="1514651627186" expanded="true" signature="5876:5929" ph="DELETE FROM " />
+            <marker date="1514651627186" expanded="true" signature="6063:6104" ph="SELECT * FRO... sites" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReviewManager/ReviewManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <marker date="1514653908285" expanded="true" signature="620:714" ph="INSERT INTO `reviews`... " />
+            <marker date="1514653908285" expanded="true" signature="1091:1154" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1334:1401" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1581:1644" ph="UPDATE `revi... " />
+            <marker date="1514653908285" expanded="true" signature="1824:1847" ph="SELECT * FRO... reviews" />
+            <marker date="1514653908285" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+            <marker date="1514653908285" expanded="true" signature="2224:2269" ph="SELECT * FRO... reviews" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserManager/UserManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1514654783573" expanded="true" signature="616:722" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="893:932" ph="DELETE FROM " />
+            <marker date="1514654783573" expanded="true" signature="904:932" ph="INSERT INTO `users`... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1210" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1176:1230" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1417" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1437" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1379:1500" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1628" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1648" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1590:1711" ph="UPDATE `user... " />
+            <marker date="1514654783573" expanded="true" signature="1819:1860" ph="SELECT * FRO... users" />
+            <marker date="1514654783573" expanded="true" signature="1827:1860" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportManager/ReportManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <marker date="1514653740804" expanded="true" signature="620:714" ph="INSERT INTO `reports`... " />
+            <marker date="1514653740804" expanded="true" signature="1095:1162" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1342:1405" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1581:1644" ph="UPDATE `repo... " />
+            <marker date="1514653740804" expanded="true" signature="1824:1847" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2029:2072" ph="DELETE FROM " />
+            <marker date="1514653740804" expanded="true" signature="2224:2269" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2464:2518" ph="SELECT * FRO... reports" />
+            <marker date="1514653740804" expanded="true" signature="2711:2761" ph="SELECT * FRO... reports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubscriptionManager/SubscriptionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <marker date="1514654783034" expanded="true" signature="583:675" ph="INSERT INTO `subscriptions`... " />
+            <marker date="1514654783034" expanded="true" signature="853:956" ph="DELETE FROM " />
+            <marker date="1514654783034" expanded="true" signature="853:966" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
